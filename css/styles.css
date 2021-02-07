@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo-color {
+  color: #2196f3;
+}
+
+.site-nav a {
+  color: #212121;
+}
+
+.address-nav a {
+  color: #757575;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.address-nav .link:hover,
+.address-nav .link:focus {
+  color: #2196f3;
+}
