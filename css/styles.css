@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #757575;
+  --title-text-color: #212121;
+  --logo-text-color: #000000;
+  --accent-color: #2196f3;
+}
+
 a {
   text-decoration: none;
 }
@@ -21,31 +28,35 @@ ul {
 
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-color);
 }
 
 .logo {
-  color: #000000;
+  color: var(--logo-text-color);
 }
 
 .logo-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .address-nav a {
-  color: #757575;
+  color: var(--primary-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .address-nav .link:hover,
 .address-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.black {
+  color: var(--title-text-color);
 }
