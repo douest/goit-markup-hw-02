@@ -52,6 +52,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .address-nav .link:hover,
 .address-nav .link:focus {
   color: var(--accent-color);
