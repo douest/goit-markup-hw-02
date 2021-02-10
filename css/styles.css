@@ -3,6 +3,8 @@
   --title-text-color: #212121;
   --logo-text-color: #000000;
   --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --grey-button-color: #f5f4fa;
 }
 
 a {
@@ -27,7 +29,7 @@ ul {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--primary-color);
 }
 
@@ -63,4 +65,21 @@ body {
 
 .black {
   color: var(--title-text-color);
+}
+
+.button.studio {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button.portfolio {
+  color: var(--title-text-color);
+  background-color: var(--grey-button-color);
+  border: none;
+}
+
+.button.portfolio:hover,
+.button.portfolio:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
