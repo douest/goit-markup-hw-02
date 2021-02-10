@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --grey-button-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 
 a {
@@ -39,6 +40,14 @@ body {
 
 .logo-color {
   color: var(--accent-color);
+}
+
+.white-footer {
+  color: var(--white-color);
+}
+
+.address-footer-color {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .site-nav a {
@@ -82,4 +91,16 @@ body {
 .button.portfolio:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.main-bg-color {
+  background-color: var(--footer-bg-color);
+}
+
+.main-text-color {
+  color: var(--white-color);
 }
