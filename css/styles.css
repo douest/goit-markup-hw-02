@@ -108,3 +108,7 @@ body {
 .main-text-color {
   color: var(--white-color);
 }
+
+.cards-link a {
+  color: var(--primary-color);
+}
