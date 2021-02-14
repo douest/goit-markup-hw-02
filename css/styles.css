@@ -152,9 +152,10 @@ button {
   background-color: var(--footer-bg-color);
 }
 
-.cards-link a {
+/* Убрал ссылки на карточки (ненужны) */
+/* .cards-link a {
   color: var(--primary-color);
-}
+} */
 
 .cardname {
   font-weight: 700;
